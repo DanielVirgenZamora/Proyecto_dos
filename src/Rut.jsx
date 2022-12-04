@@ -5,7 +5,7 @@ import Pagina2 from './Components/Pagina2';
 import Pagina3 from './Components/Pagina3';
 import Pagina4 from './Components/Pagina4';
 import Error404 from './Components/Error404';
-import Foote from './Footer';
+
 
 
 
