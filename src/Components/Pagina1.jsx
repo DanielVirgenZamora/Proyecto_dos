@@ -8,7 +8,7 @@ const Pagina1 = () => {
     <div>
         <div className='banner'>
           <img className='banni' src={Banner} alt="" />
-          <div className='textb'><h2>I'm Daniel. a developer specialized on front-end</h2></div>
+          <div className='textb'><h2>I'm Daniel. a developer passionnate on front-end</h2></div>
         </div>
         <Skills></Skills>
         <Foote></Foote>
