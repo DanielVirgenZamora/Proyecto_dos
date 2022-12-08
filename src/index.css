@@ -20,7 +20,8 @@ a {
   
 }
 a:hover {
-  color: #cae6ff;
+  color: #d0e9ff;
+  text-shadow: 0 0px 20px white;
 }
 
 body {
@@ -48,9 +49,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

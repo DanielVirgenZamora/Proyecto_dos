@@ -1,14 +1,18 @@
 import React from 'react';
 import Foote from '../Footer';
-import Banner from './Img/Banner.jpg';
 import Skills from './Skills';
 
 const Pagina1 = () => {
   return (
     <div>
-        <div className='banner'>
-          <img className='banni' src={Banner} alt="" />
-          <div className='textb'><h2>I'm Daniel. a developer passionnate on front-end</h2></div>
+        <div  className='banner'>
+          <div className='banni' >
+              <div className='textb'>
+                <h2 className='letrasb'>I'm Daniel. a developer</h2>
+                  <h2 className='letrasb'>passionnate on  design</h2>
+                </div>
+          </div>
+          
         </div>
         <Skills></Skills>
         <Foote></Foote>

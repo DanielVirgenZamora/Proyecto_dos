@@ -3,8 +3,8 @@ import { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 import { DatosValidacion } from './Context/Contexto';
 import Bolaverde from './Img/Bolaverde.png';
-import GEMIDO from './Img/GEMIDO.mp3';
 import Rut from './Rut';
+import campana from './Img/campana.mp3'
 
 
 
@@ -60,7 +60,7 @@ const Bienvenida = () => {
     return (
       <div><>
           {tiempo2 && <div>
-            <div><audio src={GEMIDO} autoPlay></audio></div>
+            <div><audio src={campana} autoPlay></audio></div>
             <div className='bolaverde' ><img className='bolaverdeimg' src={Bolaverde} alt="verificado" /></div>
             <h2 className='saludo'>Welcome {data.username}</h2>
             </div>}

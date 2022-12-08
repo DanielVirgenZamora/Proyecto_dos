@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  align-items: center;
   background-color: rgb(24, 24, 24);
 }
 
@@ -158,11 +159,18 @@ color: rgb(174, 174, 174);
 }
 
 /*nav*/
+.navi2{
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  background-color: rgba(38, 38, 38, 0.5);
+  border-radius: 3%;
+  box-shadow: 0px 0px 5px rgb(67, 59, 59);
+}
 
 a {
 
   color: #d7d7d7;
   text-decoration: none;
+  
   margin-left: 6px;
   padding: 1rem;
 }
@@ -171,11 +179,14 @@ a {
 
 .activado {
   color: #f9f9ff;
-  background-color: rgb(75, 75, 75);
+  text-shadow: 0 0px 20px white;
+  background-color: rgb(74, 69, 69);
+  border-radius: 10%;
+ 
 }
 
 .logo{
-
+margin-left: 20px;
  font-size: 30px;
  color: white;
 }
@@ -191,50 +202,66 @@ a {
   align-items: center;
   flex-direction: column;
 }
-.navi2{
-  width: 78vmax;
-  height: 50px;
-margin-top: 20px;
-display: flex;
-position: fixed;
 
-align-items: center;
-justify-content: space-between;
-}
 
 /*Home*/
 .banner{
-    position: static;
-    width: 90vw;
+    width: auto;
     height: auto;
     display: flex;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
 
 .banni{
-  width: auto;
-    height: auto;
-    max-width:90vw;
-    max-height: 45vw;
-    border-top-left-radius: 80%;
+  width: 850px;
+
+    height: 550px;
+    
+    background-image: url("./Img/Banner.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 100%;
     border-bottom-right-radius: 80%;
     border-top-right-radius: 5%;
     border-bottom-left-radius: 5%;
 }
+
+.navi2 {
+  width: 70vmax;
+  height: 65px;
+  margin-top: 20px;
+  display: flex;
+  position: fixed;
+
+  align-items: center;
+  justify-content: space-between;
+}
 p{
+
   color: white;
 }
 .textb{
-display: flex;
-position: absolute; right: 105px;
-color: #f9f9ff;
-font-size: 30px;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+
+}
+
+.letrasb{
+  font-size:65px;
+  margin-top: 2px;
+  
+  
 }
 
 .skill{
-  position: static;
+
     width: 85vw;
+    
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -250,10 +277,12 @@ font-size: 30px;
 }
 
 .skull{
+
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 80px;
+ 
 }
 
 h2{
@@ -263,11 +292,10 @@ h2{
 /*footer*/
 .fot{
   display: flex;
-  top: 220px;
   margin: 0;
   flex-direction: column;
-  position: relative;
-  width: 100vw;
+  margin-top: 100px;
+  width: 98vw;
   color: #f9f9ff;
   height: 250px;
   background-color: black;
