@@ -5,6 +5,7 @@ import Pagina2 from './Components/Pagina2';
 import Pagina3 from './Components/Pagina3';
 import Pagina4 from './Components/Pagina4';
 import Error404 from './Components/Error404';
+import Foote from './Footer';
 
 
 
@@ -17,6 +18,7 @@ function Rut() {
   <div className='rut'>
     <BrowserRouter>
       <Nav></Nav>
+      
           <Routes>
             <Route path='/' element={<Pagina1/>}></Route>
             <Route path='/Pagina1' element={<Navigate to= {"/"}/>}></Route>
@@ -25,6 +27,7 @@ function Rut() {
             <Route path='/Pagina4' element={<Pagina4/>}></Route>
             <Route path='/*' element={<Error404/>}></Route>
           </Routes>
+          <Foote></Foote>
       </BrowserRouter>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import Foote from '../Footer';
+
 import Skills from './Skills';
 
 const Pagina1 = () => {
@@ -15,7 +15,6 @@ const Pagina1 = () => {
           
         </div>
         <Skills></Skills>
-        <Foote></Foote>
     </div>
   );
 };

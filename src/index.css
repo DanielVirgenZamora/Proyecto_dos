@@ -24,14 +24,7 @@ a:hover {
   text-shadow: 0 0px 20px white;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: rgb(24, 24, 24);
-}
+
 
 h1 {
   font-size: 3.2em;

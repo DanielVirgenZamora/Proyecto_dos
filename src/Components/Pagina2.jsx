@@ -1,5 +1,5 @@
 import React from 'react'
-import Foote from '../Footer';
+
 import Colleges from './Colleges';
 
 function Pagina2() {
@@ -12,9 +12,11 @@ function Pagina2() {
         <div className='pp2'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, explicabo dolorem veniam aut voluptatum unde. Harum totam tenetur officia, et sequi illum, nostrum architecto sit asperiores magni at distinctio velit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, architecto tenetur? Necessitatibus neque ducimus dolorem similique voluptatum hic reprehenderit fugiat ad odit error repudiandae quas, in voluptates dolores voluptatem aliquam.</p>
         </div>
+        <div className="firma">
+
+        </div>
     </div>
       <Colleges></Colleges>
-      <Foote></Foote>
     </div>
     
   );

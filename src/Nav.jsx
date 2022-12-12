@@ -5,7 +5,9 @@ const Nav = () => {
   return (
     
       <nav className='navi2'>
-        <span className='logo'>Logo</span>
+        <div className='logo'>
+          <NavLink className={"botoav"} to={"/"}></NavLink>
+        </div>
         <div className='navi'>
           <NavLink id='partnavi' className={
             ({isActive})=>(isActive ? "activado" : null)} to ="/">Home</NavLink>
