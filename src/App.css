@@ -281,7 +281,9 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(215, 215, 215, 0.009);
+      box-shadow: 0px 5px 5px rgb(67, 59, 59);
+      border: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 .skilli{
@@ -503,7 +505,7 @@ body {
       margin: 0 auto;
       display: flex;
       place-items: center;
-      width: 300px;
+      width: 100vw;
 
       min-width: 270px;
       min-height: 100vh;
@@ -517,8 +519,8 @@ body {
 
   /*nav*/
 .navi2{
-  width: 67vmin;
-    height: 40px;
+  width: 80vw;
+    height: 45px;
     margin-top: 20px;
 }
 
@@ -527,8 +529,8 @@ body {
 }
 
 .navi{
-  font-size: 8px;
-  margin: 0 auto;
+  font-size: 11.2px;
+  margin: 0  auto;
   
 }
 
@@ -539,25 +541,26 @@ body {
   border: none;
     box-shadow:none;
     border-radius: none;
-
-    margin: 0 auto;
+    margin: 0;
     width: auto;
 }
 
 /*baner*/
 .banni{
-  width: 200px;
-  margin-top: 70px;
-    height: 150px;
-        border-top-left-radius: 100%;
-    border-bottom-right-radius: 80%;
+  width: 90vw;
+  margin-top: 10px;
+    height: 90vh;
+  background-image: -webkit-gradient(0.5);
+
+        border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
     border-top-right-radius: 5%;
     border-bottom-left-radius: 5%;
 }
 .letrasb {
-  font-size: 25px;
+  font-size: 30px;
   padding: 0;
-  margin: 0;
+  margin: 3px;
 }
 
 /*skills*/
@@ -572,19 +575,18 @@ flex-direction: column;
 .skilli {
   width: auto;
   height: auto;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 150px;
+  max-height: 150px;
 
 }
 
 .skull {
 
-  font-size: 15px;
+  font-size: 19px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
-  width: 250px;
+  margin-top: 5px;
 }
 
 
@@ -595,15 +597,15 @@ flex-direction: column;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
-  width: 100%;
+  width: 100vw;
   color: #f9f9ff;
-  height: 220px;
+  height: 190px;
   background-color: black;
 }
 
 .navfot {
-  margin-top: 3px;
-  font-size: 8px;
+  margin-top: 10px;
+  font-size: 15px;
   color: rgb(54, 54, 54);
 }
 
@@ -612,7 +614,7 @@ a{
 }
 
 .lorefot {
-font-size: 8px;
+font-size: 9px;
 
   margin-top: 20px;
   width: 250px;
@@ -620,7 +622,7 @@ font-size: 8px;
 }
 
 .firmae {
-  width: 100px;
+  width: 95vw;
 
   height: auto;
   display: flex;
@@ -634,8 +636,98 @@ font-size: 8px;
 .firma2 {
   width: auto;
   height: auto;
-  max-width: 10px;
-  max-height: 10px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
+/*pagina2*/
+
+.p2 {
+
+  margin-top: 120px;
+  width: 75vw;
+  display: flex;
+  border-radius: 1%;
+  background-color: rgb(215, 215, 215, 0.009);
+  box-shadow: 0px 5px 5px rgb(67, 59, 59);
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.coll {
+  margin-top: 60px;
+}
+
+.pp1 {
+  font-size: 19px;
+  width: 80vw;
+}
+
+
+
+.pp2 {
+  width: 80vw;
+}
+
+.firma {
+  width: 100px;
+  height: 100px;
+  background-image: url("./Components/Img/Firma.png");
+  background-size: cover;
+  box-shadow: 0px 1px 0px white;
+}
+
+/*pagina3*/
+
+.portfolio {
+  margin-top: 80px;
+}
+
+.port {
+  font-size: 20px;
+}
+
+.proyecto {
+  width: 87vw;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1%;
+  background-color: rgb(215, 215, 215, 0.009);
+  box-shadow: 0px 5px 5px rgb(67, 59, 59);
+  border: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.fotop {
+  width: 75vw;
+  height: 30vh;
+  background-image: url("./Components/Img/Portfolio1.png");
+
+  background-size: cover;
+}
+
+.textp {
+  margin-top: 20px;
+  width: 75vw;
+  height: 170px;
+}
+
+.lik3 {
+  color: aqua;
+}
+
+.pag4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+
+}
 }

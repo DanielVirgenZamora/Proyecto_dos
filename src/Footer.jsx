@@ -18,7 +18,7 @@ const Foote =() =>{
         </div>
     </nav>
     <div className='lorefot' >
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod at doloribus tempora, itaque temporibus commodi blanditiis praesentium dolorem magni illum quasi explicabo quos adipisci nesciunt ad error et qui omnis.</p>
+      <p>Pagina creada con la intencion de demostrar mis habilidades como desarrollador web.</p>
     </div>
          <div className='firmae'>
 

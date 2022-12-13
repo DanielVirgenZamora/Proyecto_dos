@@ -3,7 +3,7 @@ import React from 'react';
 
 function Pagina4() {
   return (
-    <div>
+    <div className='pag4'>
       avalible soon
     </div>
   );
