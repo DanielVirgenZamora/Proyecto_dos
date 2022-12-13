@@ -15,7 +15,7 @@ function Pagina3() {
         </div>
 
         <div className='textp'>
-          <p>On my first proyect I did bulid a cosmetic 
+          <p>On my first proyect I built a cosmetic 
             and fashion web page. it has a home page, a marcket place,
             a contact zone and a blog</p>
           <a className='lik3' href="https://danielvirgenzamora.github.io/proyecto_final_bootcamp_DanielV/" target="_blank" >check it out</a>

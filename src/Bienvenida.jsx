@@ -4,7 +4,7 @@ import axios from 'axios';
 import { DatosValidacion } from './Context/Contexto';
 import Bolaverde from './Img/Bolaverde.png';
 import Rut from './Rut';
-import campana from './Img/campana.mp3'
+import Campanilla from './Img/CAMPANILLA.mp3'
 
 
 
@@ -59,8 +59,8 @@ const Bienvenida = () => {
 
     return (
       <div><>
-          {tiempo2 && <div>
-            <div><audio src={campana} autoPlay></audio></div>
+          {tiempo2 && <div className='cajabola' >
+            <div  ><audio src={Campanilla} autoPlay></audio></div>
             <div className='bolaverde' ><img className='bolaverdeimg' src={Bolaverde} alt="verificado" /></div>
             <h2 className='saludo'>Welcome {data.username}</h2>
             </div>}
