@@ -378,8 +378,12 @@ color: rgb(54, 54, 54);
 }
 
 .pp2{
-  width: 40vw;
+  width: 55vw;
   font-size: 1.3vw;
+}
+
+.bio {
+  text-align: left;
 }
 
 .firma {
@@ -646,14 +650,20 @@ font-size: 9px;
 }
 
 .pp1 {
-  font-size: 19px;
   width: 80vw;
 }
-
+.me{
+  font-size: 7.5vw;
+}
 
 
 .pp2 {
   width: 80vw;
+}
+
+.bio{
+  text-align: left;
+    font-size: 3.8vw;
 }
 
 .firma {
@@ -852,6 +862,7 @@ font-size: 9px;
 
 .impu {
   height: 25px;
+  width:150px ;
   border-radius: 20%;
   background-color: #f9f9ff;
   color: black;
@@ -1025,6 +1036,10 @@ body {
     width: 80vw;
   }
 
+    .bio {
+      text-align: left;
+      
+    }
 
 
   .pp2 {
